@@ -1,5 +1,5 @@
 # simple-eks
-A simple Terraform config to create a small EKS cluster suitable for demos and other non-prod uses.
+A simple Terraform module to create a small EKS cluster suitable for demos and other non-prod uses.
 
 > [!WARNING]
 > Do not use this code for a production EKS cluster.  It is provided for educational purposes only, primarily for use preparing EKS clusters suitable for running demos.

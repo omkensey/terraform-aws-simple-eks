@@ -1,20 +1,3 @@
-terraform {
-  required_providers {
-    aws = {
-      source = "hashicorp/aws"
-    }
-  }
-}
-
-provider "aws" {
-  region = var.aws_region
-  default_tags {
-    tags = {
-      Owner = var.owner
-    }
-  }
-}
-
 data "aws_region" "current" {}
 
 # Filter out local zones, which are not currently supported 
